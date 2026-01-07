@@ -26,33 +26,7 @@ body {
 }
 
 #unity-logo { 
-  width: 154px; 
-  height: 130px; 
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 20px;
-  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.4);
-  animation: pulse 2s ease-in-out infinite;
-}
-
-#unity-logo::before {
-  content: "⚡";
-  font-size: 60px;
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
-}
-
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-    box-shadow: 0 8px 32px rgba(102, 126, 234, 0.4);
-  }
-  50% {
-    transform: scale(1.05);
-    box-shadow: 0 12px 48px rgba(102, 126, 234, 0.6);
-  }
+  display: none !important;
 }
 
 #unity-progress-bar-empty { 
